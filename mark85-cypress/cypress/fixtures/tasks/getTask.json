@@ -1,0 +1,58 @@
+{
+    "list": {
+        "user": {
+            "name": "Get Task",
+            "email": "get_task@gmail.com",
+            "password": "pwd123"
+        },
+        "tasks":[
+            {
+                "name": "Estud4r Python",
+                "tags": []
+            },
+            {
+                "name": "Estud4r automação de testes",
+                "tags": [
+                    "Cypress",
+                    "Robot"
+                ]
+            },
+            {
+                "name": "Estud4r backend",
+                "tags": [
+                    "java",
+                    "python",
+                    "kotlin"
+                ]
+            }
+        ]
+    },
+    "unique": {
+        "user": {
+            "name": "Get unique",
+            "email": "Get_unique@yahoo.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Faculdade impacta",
+            "tags": [
+                "ADS",
+                "Presencial",
+                "Noturno"
+            ]
+        }
+
+    },     
+    "not_found": {
+        "user": {
+            "name": "Get not found",
+            "email": "Get_not_found@yahoo.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Academia"
+        }
+
+    }
+   
+}

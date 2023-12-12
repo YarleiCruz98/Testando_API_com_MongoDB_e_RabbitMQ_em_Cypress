@@ -1,0 +1,28 @@
+{
+    "create": {
+        "user": {
+            "name": "Register Task",
+            "email": "register_task@gmail.com",
+            "password": "pwd123"
+        },
+        "task":{
+            "name": "Pagar cartões",
+            "tags": [
+                "itau",
+                "nubank",
+                "santander"
+            ]
+        }
+    },
+    "duplicated": {
+        "user": {
+            "name": "Duplicated task",
+            "email": "Duplicated_task@gmail.com",
+            "password": "pwd123"
+        },
+        "task":{
+            "name": "Fazer compras"
+        }
+    }
+   
+}
