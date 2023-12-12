@@ -1,11 +1,11 @@
 const { defineConfig } = require("cypress");
-
 const {connect} = require('./cypress/support/mongo')
+
+require('dotenv').config()
 
 module.exports = defineConfig({
   e2e: {
     async setupNodeEvents(on, config) {
-      // implement node event listeners here
       const db = await connect()
 
       on('task', {
@@ -28,9 +28,12 @@ module.exports = defineConfig({
         }
       })
 
+      return config;
     },
-    baseUrl:'http://localhost:3333',
+    baseUrl:process.env.BASE_URL,
     video: false,
-    screenshotOnRunFailure: false
+    screenshotOnRunFailure: false,
+    env:{
+    }
   },
 });
