@@ -12,7 +12,7 @@ describe("POST /users", () => {
       cy.task("removeUser", user.email);
 
       cy.postUser(user).then((response) => {
-        expect(response.status).to.equal(200);
+        expect(response.status).to.equal(201);
 
       });
 

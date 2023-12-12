@@ -18,7 +18,7 @@ describe('POST /tasks', ()=> {
                     cy.task('removeTask', user.name, user.email)
                     cy.postTask(task, userResponse.body.token)
                         .then(response => {
-                            expect(response.status).to.equal(200)
+                            expect(response.status).to.equal(201)
                             expect(response.body.name).to.equal(task.name)
                             expect(response.body.tags).to.eql(task.tags)
                             expect(response.body.is_done).to.equal(false)

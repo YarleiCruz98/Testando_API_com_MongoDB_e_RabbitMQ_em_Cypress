@@ -1,0 +1,30 @@
+{
+    "remove": {
+        "user": {
+            "name": "delete task",
+            "email": "delete_task@yahoo.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "automação",
+            "tags": [
+                "cypress",
+                "robot",
+                "appium"
+            ]
+        }
+
+    },     
+    "not_found": {
+        "user": {
+            "name": "deletar tarefas",
+            "email": "deleta_tarefa@yahoo.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "pilates"
+        }
+
+    }
+   
+}

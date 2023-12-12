@@ -95,3 +95,16 @@ Cypress.Commands.add('getTasks', (token)  => {
   })
 
 })
+
+Cypress.Commands.add('putTaskDone', (taskId, token) => {
+  cy.api({
+      url: `/tasks/${taskId}/done`,
+      method: 'PUT',
+      headers: {
+          authorization: token
+      },
+      failOnStatusCode: false
+  }).then(response => {
+      return response
+  })
+})

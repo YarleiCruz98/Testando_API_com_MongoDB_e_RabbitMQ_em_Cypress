@@ -1,0 +1,29 @@
+{
+    "update": {
+        "user": {
+            "name": "put teste",
+            "email": "put_teste@yahoo.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "Construir SO",
+            "tags": [
+                "Sistema Operacional",
+                "NoSql"
+            ]
+        }
+
+    },     
+    "not_found": {
+        "user": {
+            "name": "not found put",
+            "email": "not_found_put@gmail.com",
+            "password": "pwd123"
+        },
+        "task": {
+            "name": "N/A"
+        }
+
+    }
+   
+}
